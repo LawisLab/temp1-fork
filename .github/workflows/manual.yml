@@ -19,6 +19,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.6.3
         with:
-          # owner: llvm
+          owner: LawisIT
+          token: ${{ secrets.PERSONAL_TOKEN }}
           base: master
           head: master
