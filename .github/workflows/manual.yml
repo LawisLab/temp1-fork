@@ -7,8 +7,8 @@ name: Manual workflow
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
-  schedule:
-    - cron: '*/2 * * * *' # every 30 minutes
+  # schedule:
+  #  - cron: '*/2 * * * *' # every 30 minutes
     
   workflow_dispatch:
 
